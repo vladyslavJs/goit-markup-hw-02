@@ -17,18 +17,23 @@ body {
 /* LINK STYLES */
 .menu-link:hover,
 .menu-link:focus {
-    background-color:#404BBF;
+    color: #404bbf;
     text-decoration: underline;
 }
 
 .info-link:hover,
 .info-link:focus {
- background-color:#404BBF
+    color: #404bbf;
 }
 
 /* BUTTON STYLES */
 button {
     cursor: pointer;
+}
+
+.button-text:hover,
+.button-text:focus {
+    background-color: #404BBF;
 }
 
 /* PAGE NAVIGATOR SECTION */
@@ -38,7 +43,7 @@ button {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -200,7 +205,7 @@ button {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .text-logo-color {
@@ -209,7 +214,7 @@ button {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
