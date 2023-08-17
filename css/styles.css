@@ -17,13 +17,13 @@ body {
 /* LINK STYLES */
 .menu-link:hover,
 .menu-link:focus {
-    color:#404BBF;
+    background-color:#404BBF;
     text-decoration: underline;
 }
 
 .info-link:hover,
 .info-link:focus {
- color:#404BBF
+ background-color:#404BBF
 }
 
 /* BUTTON STYLES */
@@ -48,7 +48,7 @@ button {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -132,11 +132,17 @@ button {
     text-align: center;
 }
 
+.team-container {
+    background-color: #FFFFFF;
+}
+
 .team-title{
+    color:#2e2f42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .team-name {
@@ -157,6 +163,11 @@ button {
 }
 
 /* OUR PORTFOLIO SECTION*/
+.portfolio-title {
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
 .our-portfolio {
     background-color: #FFFFFF;
     text-align: center;
@@ -197,7 +208,7 @@ button {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
