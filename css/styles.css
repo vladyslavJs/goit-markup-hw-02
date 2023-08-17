@@ -2,88 +2,120 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
-    margin: 0;  
+    margin: 0; 
 }
 
-ul {
+/* TEXT DECORATION */
+.list {
     list-style-type: none;
 }
 
-a {
+.list {
     text-decoration: none;
 }
 
+/* LINK STYLES */
+.menu-link:hover,
+.menu-link:focus {
+    color:#404BBF;
+    text-decoration: underline;
+}
+
+.info-link:hover,
+.info-link:focus {
+ color:#404BBF
+}
+
+/* BUTTON STYLES */
+button {
+    cursor: pointer;
+}
+
+/* PAGE NAVIGATOR SECTION */
 /* logo-style */
 .link-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.3;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .text-logo {
     color: #2E2F42;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03;
     text-transform: uppercase;
 }
 
-/* address */
 .menu-link {
     color: #2E2F42;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+}
+
+/* address */
+
+.contacts-link {
+    font-style: normal;
 }
 
 .info-link {
     color: #434455;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
-/* h1-style */
+.info-link-number {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+
+
+/* HERO SECTION */
 .main-menu {
     background: #2E2F42;
-    line-height: normal;
+
 }
 
 .main-menu-title {
-  color: #FFF;
+    color: #FFFFFF;
     text-align: center;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
 }
  /* button-style */
-.main-menu-button {
+.button-text {
+    font-family: 'Roboto', sans-serif;
     background: #4D5AE5;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-/* advantages-section-style */
+/* ADVANTAGES SECTION */
 .advantages-header {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 .advantages-body {
@@ -91,45 +123,69 @@ a {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
+/* OUR TEAM SECTION */
 .our-team {
     background-color: #F4F4FD;
-}
-
-.information-container {
-    background: #FFF;
     text-align: center;
 }
 
-.employee-name {
+.team-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.team-name {
     color: #2E2F42;
-    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
-.employee-position {
+.team-position {
     color: #434455;
-    text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 
 }
 
-/* fotter-style*/
+/* OUR PORTFOLIO SECTION*/
+.our-portfolio {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.portfolio-header {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    color:#434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+/* FOTTER SECTION */
 .footer-block {
     background-color: #2E2F42;
 }
 
 .footer-text {
     color:  #F4F4FD;
-    /* Body */
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -138,7 +194,7 @@ a {
 
 .text-logo-color {
     color:#F4F4FD;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
