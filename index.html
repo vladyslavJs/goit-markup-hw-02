@@ -9,50 +9,49 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet"
-        href="http://127.0.0.1:5500/node_modules/modern-normalize/modern-normalize.css?_cacheOverride=1692091670746">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     <title>WebStudio</title>
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <nav>
-            <a class="link-logo" href="./index.html">Web<span class="text-logo">Studio</span></a>
-            <ul class="top-menu">
-                <li>
-                    <a class="menu-link" href="">Studio</a>
+    <!-- PAGE_NAVIGATOR SECTION -->
+    <header class="header-nav">
+        <nav class="list">
+            <a class="link-logo list" href="./index.html">Web<span class="text-logo">Studio</span></a>
+            <ul class="list">
+                <li class="menu-page">
+                    <a class="menu-link list" href="">Studio</a>
                 </li>
-                <li>
-                    <a class="menu-link" href="">Portfolio</a>
+                <li class="menu-page">
+                    <a class="menu-link list" href="">Portfolio</a>
                 </li>
-                <li>
-                    <a class="menu-link" href="">Contacts</a>
+                <li class="menu-page">
+                    <a class="menu-link list" href="">Contacts</a>
                 </li>
             </ul>
         </nav>
         <address class="contacts-link">
-            <ul>
-                <li>
-                    <a class="info-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="list">
+                <li class="address-info">
+                    <a class="info-link list" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a class="info-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <li class="address-info list">
+                    <a class="info-link-number list" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
     </header>
     <!-- Main-content -->
     <main>
-        <!-- Section-1 -->
+        <!-- HERO SECTION -->
         <section class="main-menu">
             <h1 class="main-menu-title">Effective Solutions for Your Business</h1>
-            <button class="main-menu-button" type="button">Order Service</button>
+            <button class="button-text" type="button">Order Service</button>
         </section>
-        <!-- Section-2 -->
+        <!-- ADVANTAGES SECTION -->
         <section class="advantages-section">
             <h2 class="advantages-section-title"></h2>
-            <ul class="advantages-list">
+            <ul class="list">
                 <li class="advantages-items">
                     <h3 class="advantages-header">Strategy</h3>
                     <p class="advantages-body">Our goal is to identify the business
@@ -81,73 +80,80 @@
                 </li>
             </ul>
         </section>
-        <!-- Section-3 -->
+        <!-- OUR TEAM SECTION -->
         <section class="our-team">
-            <h2 class="our-team-title">Our Team</h2>
-            <ul class="information-employee-list">
-                <li class="information-container">
-                    <img src="./images/img1.jpg" alt="Mark Guerrero by PM" width="264" height="260">
-                    <h3 class="employee-name">Mark Guerrero</h3>
-                    <p class="employee-position">Product Designer</p>
+            <h2 class="team-title">Our Team</h2>
+            <ul class="list">
+                <li class="team-container">
+                    <img src="./images/employee_photo/mark.jpg" alt="Mark Guerrero by PM" width="264" height="260">
+                    <h3 class="team-name">Mark Guerrero</h3>
+                    <p class="team-position">Product Designer</p>
                 </li>
-                <li class="information-container">
-                    <img src="./images/img2.jpg" alt="Tom Ford by Frontend Developer" width="264" height="260">
-                    <h3 class="employee-name">Tom Ford</h3>
-                    <p class="employee-position">Frontend Developer</p>
+                <li class="team-container">
+                    <img src="./images/employee_photo/tom.jpg" alt="Tom Ford by Frontend Developer" width="264"
+                        height="260">
+                    <h3 class="team-name">Tom Ford</h3>
+                    <p class="team-position">Frontend Developer</p>
 
                 </li>
-                <li class="information-container">
-                    <img src="./images/img3.jpg" alt="Camila Garcia by Marketing" width="264" height="260">
-                    <h3 class="employee-name">Camila Garcia</h3>
-                    <p class="employee-position">Marketing</p>
+                <li class="team-container">
+                    <img src="./images/employee_photo/camila.jpg" alt="Camila Garcia by Marketing" width="264"
+                        height="260">
+                    <h3 class="team-name">Camila Garcia</h3>
+                    <p class="team-position">Marketing</p>
                 </li>
-                <li class="information-container">
-                    <img src="./images/img4.jpg" alt="Daniel Wilson by UI Designer" width="264" height="260">
-                    <h3 class="employee-name">Daniel Wilson</h3>
-                    <p class="employee-position">UI Designer</p>
+                <li class="team-container">
+                    <img src="./images/employee_photo/daniel.jpg" alt="Daniel Wilson by UI Designer" width="264"
+                        height="260">
+                    <h3 class="team-name">Daniel Wilson</h3>
+                    <p class="team-position">UI Designer</p>
                 </li>
             </ul>
         </section>
-        <!-- Section-4 -->
-        <section>
-            <h2>Our Portfolio</h2>
-            <ul>
-                <li>
-                    <img src="./images/img5.jpg" alt="Banking App" width="360" height="300">
-                    <h3>Banking App</h3>
-                    <p>App</p>
+        <!-- OUR PORTFOLIO SECTION -->
+        <section class="our-portfolio">
+            <h2 class="portfolio-title">Our Portfolio</h2>
+            <ul class="list">
+                <li class="portfolio-container">
+                    <img src="./images/portfolio_photo/banking_app.jpg" alt="Banking App" width="360" height="300">
+                    <h3 class="portfolio-header">Banking App</h3>
+                    <p class="portfolio-text">App</p>
                 </li>
-                <li>
-                    <img src="./images/img6.jpg" alt="Cashless Payment" width="360" height="300">
-                    <h3>Cashless Payment</h3>
-                    <p>Marketing</p>
+                <li class="portfolio-container">
+                    <img src="./images/portfolio_photo/cashless_payment.jpg" alt="Cashless Payment" width="360"
+                        height="300">
+                    <h3 class="portfolio-header">Cashless Payment</h3>
+                    <p class="portfolio-text">Marketing</p>
                 </li>
-                <li>
-                    <img src="./images/img7.jpg" alt="Maditation App" width="360" height="300">
-                    <h3>Meditation App</h3>
-                    <p>App</p>
+                <li class="portfolio-container">
+                    <img src="./images/portfolio_photo/meditation_app.jpg" alt="Maditation App" width="360"
+                        height="300">
+                    <h3 class="portfolio-header">Meditation App</h3>
+                    <p class="portfolio-text">App</p>
                 </li>
-                <li>
-                    <img src="./images/img8.jpg" alt="Taxi Service" width="360" height="300">
-                    <h3>Taxi Service</h3>
-                    <p>Marketing</p>
+                <li class="portfolio-container">
+                    <img src="./images/portfolio_photo/taxi_service.jpg" alt="Taxi Service" width="360" height="300">
+                    <h3 class="portfolio-header">Taxi Service</h3>
+                    <p class="portfolio-text">Marketing</p>
                 </li>
-                <li>
-                    <img src="./images/img9.jpg" alt="Screen Illustrations" width="360" height="300">
-                    <h3>Screen Illustrations</h3>
-                    <p>Design</p>
+                <li class="portfolio-container">
+                    <img src="./images/portfolio_photo/screen_illustrations.jpg" alt="Screen Illustrations" width="360"
+                        height="300">
+                    <h3 class="portfolio-header">Screen Illustrations</h3>
+                    <p class="portfolio-text">Design</p>
                 </li>
-                <li>
-                    <img src="./images/img10.jpg" alt="Online Courses" width="360" height="300">
-                    <h3>Online Courses</h3>
-                    <p>Marketing</p>
+                <li class="portfolio-container">
+                    <img src="./images/portfolio_photo/online_courses.jpg" alt="Online Courses" width="360"
+                        height="300">
+                    <h3 class="portfolio-header">Online Courses</h3>
+                    <p class="portfolio-text">Marketing</p>
                 </li>
             </ul>
         </section>
     </main>
     <!-- Footer -->
     <footer class="footer-block">
-        <a class="link-logo" href="./index.html">Web<span class="text-logo-color">Studio</span></a>
+        <a class="link-logo list" href="./index.html">Web<span class="text-logo-color">Studio</span></a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
             growth solutions.</p>
     </footer>
