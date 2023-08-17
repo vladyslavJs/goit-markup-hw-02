@@ -15,15 +15,10 @@ body {
 }
 
 /* LINK STYLES */
-.menu-link:hover,
-.menu-link:focus {
+.style-link:hover,
+.style-link:focus {
     color: #404bbf;
     text-decoration: underline;
-}
-
-.info-link:hover,
-.info-link:focus {
-    color: #404bbf;
 }
 
 /* BUTTON STYLES */
@@ -31,8 +26,8 @@ button {
     cursor: pointer;
 }
 
-.button-text:hover,
-.button-text:focus {
+button:hover,
+button:focus {
     background-color: #404BBF;
 }
 
@@ -106,8 +101,8 @@ button {
  /* button-style */
 .button-text {
     font-family: 'Roboto', sans-serif;
-    background: #4D5AE5;
     color: #FFF;
+    background:#4D5AE5;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
